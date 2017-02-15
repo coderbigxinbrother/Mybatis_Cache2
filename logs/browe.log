@@ -854,3 +854,32 @@
 2017-02-15 14:53:48,200 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 52, 张三9, 22, 1, 广东
 2017-02-15 14:53:48,200 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 23
 2017-02-15 14:53:48,206 DEBUG [main] decorators.LoggingCache (LoggingCache.java:62) - Cache Hit Ratio [com.yc.dao.mapper.StudentMapper]: 0.5
+2017-02-15 15:38:40,806 DEBUG [main] decorators.LoggingCache (LoggingCache.java:62) - Cache Hit Ratio [com.yc.dao.mapper.StudentMapper]: 0.0
+2017-02-15 15:38:41,510 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select * from student where sex=? 
+2017-02-15 15:38:41,612 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 1(Integer)
+2017-02-15 15:38:41,643 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: SID, SNAME, SAGE, SEX, ADDRESS
+2017-02-15 15:38:41,648 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 4, 张三3, 20, 1, 山东
+2017-02-15 15:38:41,649 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 7, 张三4, 19, 1, 山东
+2017-02-15 15:38:41,650 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 9, 张三6, 19, 1, 湖北
+2017-02-15 15:38:41,650 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 10, 张三7, 19, 1, 湖南
+2017-02-15 15:38:41,650 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 11, 张三8, 21, 1, 湖南
+2017-02-15 15:38:41,651 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 12, 张三9, 21, 1, 湖南
+2017-02-15 15:38:41,651 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 16, 张三3, 22, 1, 湖北
+2017-02-15 15:38:41,651 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 21, 张三8, 22, 1, 湖南
+2017-02-15 15:38:41,652 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 28, 张三5, 19, 1, 山东
+2017-02-15 15:38:41,652 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 30, 张三7, 22, 1, 湖北
+2017-02-15 15:38:41,653 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 31, 张三8, 20, 1, 广东
+2017-02-15 15:38:41,653 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 33, 张三0, 22, 1, 湖南
+2017-02-15 15:38:41,654 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 34, 张三1, 18, 1, 湖北
+2017-02-15 15:38:41,654 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 35, 张三2, 22, 1, 湖北
+2017-02-15 15:38:41,654 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 37, 张三4, 19, 1, 山东
+2017-02-15 15:38:41,654 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 39, 张三6, 20, 1, 湖南
+2017-02-15 15:38:41,656 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 43, 张三0, 22, 1, 湖南
+2017-02-15 15:38:41,656 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 45, 张三2, 21, 1, 山东
+2017-02-15 15:38:41,656 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 47, 张三4, 19, 1, 湖南
+2017-02-15 15:38:41,657 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 48, 张三5, 21, 1, 湖北
+2017-02-15 15:38:41,658 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 50, 张三7, 18, 1, 山东
+2017-02-15 15:38:41,658 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 51, 张三8, 22, 1, 山东
+2017-02-15 15:38:41,658 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 52, 张三9, 22, 1, 广东
+2017-02-15 15:38:41,658 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 23
+2017-02-15 15:38:41,665 DEBUG [main] decorators.LoggingCache (LoggingCache.java:62) - Cache Hit Ratio [com.yc.dao.mapper.StudentMapper]: 0.5

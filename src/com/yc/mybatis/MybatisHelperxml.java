@@ -128,7 +128,8 @@ public class MybatisHelperxml {
     public void findStrOnRedis() {
         // 通过session工厂得到一个session
         SqlSession session = MybatisUtils.getSqlSession();
-        SqlSession session2 = null;
+        
+        SqlSession session2 = MybatisUtils.getSqlSession();
         session.clearCache();
         try {
             // session中有很多操作方法
@@ -139,8 +140,9 @@ public class MybatisHelperxml {
                 System.out.println(student);
             }
            
-            session.close();
-            session2 = MybatisUtils.getSqlSession();  
+            //session commit后才能将数据缓存到redis上
+            session.commit();
+            
            System.out.println("-------------------");
             // 会由mybatis框架自动根据你的usersMapper.xml中的select id为selectUser
             list = session2.selectList("com.yc.dao.mapper.StudentMapper.findStudents5", s);
@@ -149,7 +151,7 @@ public class MybatisHelperxml {
             }
             
         } finally {
-        	
+        	session.close();
             session2.close();
         }
     }

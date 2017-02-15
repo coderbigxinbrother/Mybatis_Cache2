@@ -6,9 +6,9 @@ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
 <configuration>
 	<!-- 设置数据库配置文件 -->
 	<properties resource="db.properties"></properties>
-	<settings>
+	<!-- <settings>
 		<setting name="cacheEnabled" value="true" />
-	</settings>
+	</settings> -->
 	<environments default="development">
 		<!-- environment+ 表示可以有多个数据源 -->
 		<environment id="development">
